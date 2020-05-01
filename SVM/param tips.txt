@@ -1,0 +1,7 @@
+C: The C parameter. ,, adjusts the classification error , high C value focus on classifying correctly but with low margin سماحية قليله ,, low C value focus on making bal;anced classification with focusing on the best margin width 
+
+kernel: The kernel. The most common ones are 'linear', 'poly', and 'rbf'. 
+
+degree: If the kernel is polynomial, this is the maximum degree of the monomials in the kernel.
+
+gamma : If the kernel is rbf, this is the gamma parameter.,,, controls the width of the area surrounding the point , high gamma over fits , low gamma underfits
